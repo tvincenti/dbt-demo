@@ -1,4 +1,6 @@
 
 SELECT * FROM
-{{ source('demo', 'bikes') }}
+
+{{ source('demo', 'bike') }}
+
 LIMIT 10
