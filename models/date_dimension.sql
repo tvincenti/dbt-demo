@@ -13,6 +13,7 @@ DAYNAME(TO_TIMESTAMP(STARTED_AT)),
 
 FROM {{ source('demo', 'bike') }}
 WHERE STARTED_AT != 'started_at'
+LIMIT 10
 
 )
 SELECT * FROM CTE
