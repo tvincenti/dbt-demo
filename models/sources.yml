@@ -5,5 +5,5 @@ sources:
     database: demo      # Optional: database where source is stored
     schema: demo_schema  # Schema containing the source tables
     tables:
-      - name: bike   # Table name as it exists in the database
+      - name: bike2   # Table name as it exists in the database
       - name: weather
