@@ -2,7 +2,7 @@ WITH TRIPS AS (
 
 SELECT 
     BIKEID, 
-    usertype, 
+    usertype as typeuser, 
     DATE(TO_TIMESTAMP(starttime)) as trip_date, 
     Start_station_id as start_station_id, 
     end_station_id, 
